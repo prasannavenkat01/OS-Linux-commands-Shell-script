@@ -460,8 +460,23 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+```
+“File name is ./scriptest.sh ”
+File name is  scriptest.sh
+“First arg. is ” 8
+“Second arg. is ” 6
+“Third arg. is ” 54
+“Fourth arg. is ” 33
+The $@ is  8 6 54 33
+The $\# is  8#
+The $$ is  5025
+    PID TTY          TIME CMD
+   3970 pts/0    00:00:00 bash
+   4130 pts/0    00:00:00 vi
+   5025 pts/0    00:00:00 scriptest.sh
+   5027 pts/0    00:00:00 ps
 
- 
+ ```
 ls file1
 ## OUTPUT
 
